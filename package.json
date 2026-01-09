@@ -27,6 +27,7 @@
     "exceljs": "^4.4.0",
     "framer-motion": "^12.24.12",
     "lucide-react": "^0.562.0",
+    "marked": "^17.0.1",
     "pdf-merger-js": "^5.1.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",

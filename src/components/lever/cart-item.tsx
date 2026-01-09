@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { DocLever } from "@/components/data/lever-data";
+import type { DocLever } from "@/components/data/lever-data";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import CategoryIcons from "@/components/lever/category-icons";

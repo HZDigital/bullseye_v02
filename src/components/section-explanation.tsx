@@ -109,7 +109,7 @@ export function Explanation({ section, color }: ExplanationProps) {
       y: 0,
       transition: {
         duration: 0.5,
-        ease: "easeInOut",
+        ease: [0.42, 0, 0.58, 1] as const,
       },
     },
     hidden: {
@@ -117,7 +117,7 @@ export function Explanation({ section, color }: ExplanationProps) {
       y: 20,
       transition: {
         duration: 0.5,
-        ease: "easeInOut",
+        ease: [0.42, 0, 0.58, 1] as const,
       },
     },
   }

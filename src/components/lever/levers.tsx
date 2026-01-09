@@ -32,7 +32,7 @@ export function Levers() {
       y: 0,
       transition: {
         duration: 0.5,
-        ease: "easeInOut",
+        ease: [0.42, 0, 0.58, 1] as const,
       },
     },
     hidden: {
@@ -40,7 +40,7 @@ export function Levers() {
       y: 20,
       transition: {
         duration: 0.5,
-        ease: "easeInOut",
+        ease: [0.42, 0, 0.58, 1] as const,
       },
     },
   }
