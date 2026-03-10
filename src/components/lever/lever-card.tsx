@@ -93,7 +93,7 @@ export default function LeverCard({ lever }: LeverCardProps) {
           <div className="mt-4 flex flex-wrap gap-2">
             <Dialog>
               <DialogTrigger asChild>
-                <Button variant="outline" size="sm" className="flex-1 text-sm font-medium text-primary hover:bg-muted">
+                <Button variant="outline" size="sm" className="flex-1 text-sm font-medium text-foreground hover:bg-muted">
                   <BookOpen className="h-5 w-5" />
                   More information
                 </Button>
@@ -102,7 +102,7 @@ export default function LeverCard({ lever }: LeverCardProps) {
             </Dialog>
 
             {buttonState === "add" && (
-              <Button size="sm" className="flex-1 text-sm" onClick={handleAddToCart}>
+              <Button size="sm" className="flex-1 text-sm bg-foreground hover:bg-linear-to-tr from-head to-hand transition-colors duration-300" onClick={handleAddToCart}>
                 <PackagePlus className="h-5 w-5" />
                 Add to lever box
               </Button>
